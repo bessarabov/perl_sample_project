@@ -1,0 +1,6 @@
+time docker run \
+    --rm \
+    -it \
+    --volume `pwd`:/app \
+    sample_api \
+    sh -c 'cd /app; rm -rf cpanfile.snapshot local; carton install'

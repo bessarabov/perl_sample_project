@@ -1,0 +1,2 @@
+requires 'Mojolicious', '== 8.67';
+requires 'lib::abs', '== 0.95';

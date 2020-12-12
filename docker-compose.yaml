@@ -1,0 +1,13 @@
+api:
+  build: api
+  container_name: sample_api
+  volumes:
+    - ./api/bin/:/app/bin/
+    - ./api/lib/:/app/lib/
+    - ./api/t/:/app/t/
+
+    - ./api/app.psgi:/app/app.psgi
+    - ./api/cpanfile:/app/cpanfile
+  command: sleep 10000000
+  ports:
+    - "53593:80"

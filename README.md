@@ -33,7 +33,7 @@ Run webserver:
 
 (After running webserver you can open your project on your machine http://localhost:53593 )
 
-Edit the files in this repo. They are mounted into container, so changing them on your machine
+Edit the files from this repo on you computer. They are mounted into container, so changing them on your machine
 will "change" the in the container (actually they are the same files).
 
 ## How to update depenencies
